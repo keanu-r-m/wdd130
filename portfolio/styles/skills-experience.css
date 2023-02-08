@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: raleway, Helvetica, sans-serif;
+    background-color: #003049;
+    color: white;
+}
+img {
+    width: 100%
+}
+h2 {
+    font-family: Righteous;
+    color: #F77F00;
+    margin: 1em 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+}
+nav a {
+    padding: .5em 4em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover, footer a:hover {
+    background-color: #F77F00;
+    color:#003049;
+    border-radius: 3px;
+}
+.logo {
+    width: 120px;
+}
+
+.intro-text p {
+    width: 50%;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+.intro-text {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.it-tech-img, .printer-tech-img {
+    width: 85%;
+}
+h2:nth-child(3) {
+    margin-top: 2em;
+}
+footer {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    border-top: 2px solid #F77F00;
+    display: flex;
+    justify-content: space-around;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: .5em 4em;
+}
